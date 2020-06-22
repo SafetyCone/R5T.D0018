@@ -1,0 +1,1 @@
+﻿R5T.D0018.I0001 - An XDocumentVisualStudioProjectFile (R5T.T0004)-based implementation library for the INewVisualStudioProjectFileGenerator service.
