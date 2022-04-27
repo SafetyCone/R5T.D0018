@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 
 using R5T.T0002;
+using R5T.T0064;
 
 
 namespace R5T.D0018
@@ -10,7 +11,8 @@ namespace R5T.D0018
     /// Service to create new <see cref="IVisualStudioProjectFile"/> instances.
     /// Hides the implementation type.
     /// </summary>
-    public interface INewVisualStudioProjectFileGenerator
+    [ServiceDefinitionMarker]
+    public interface INewVisualStudioProjectFileGenerator : IServiceDefinition
     {
         Task<IVisualStudioProjectFile> CreateNewVisualStudioProjectFile();
     }
